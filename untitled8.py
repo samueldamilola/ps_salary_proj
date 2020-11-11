@@ -12,4 +12,4 @@ path = "C:/Users/lenovo/Documents/ps_salary_proj/chromedriver"
 
 df = gs.get_jobs('Physical therapist', 30, False, path, 15)
 
-df
+df.to_csv("glassdoor_jobs.csv", index = False)
